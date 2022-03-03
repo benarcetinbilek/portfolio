@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--backgroundColor);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+  color: unset;
+  text-decoration: none;
+}
+
+p {
+  color: white;
+}
+
+.logo {
+  padding-top: 1vw;
+  margin-left: 1vw;
+  width: 5.208333333333333vw;
+  height: 5.6vh;
+}
+
+.logo_img {
+  height: 1.3020833333333333vw;  
+}
+
+
+.alert {
+  position: absolute;
+  left: 13rem;
+  top: 1.5rem;
+  display: flex;
+  border: white solid;
+  width: 250px;
+  height: 40px;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  -webkit-animation: alert 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: alert 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+.alert-off {
+  display: none;
+}
+
+.main__content-window {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3.125vw;
+  height: 90vh;
+}
+
+.contactme_container {
+  width: 22.7vw;
+}
+
+.myworks_container {
+  width: 22.786458333333332vw;
+}
+
+.aboutme_container {
+  height: 11.7vw;
+  padding-top: 1.7rem;
+}
+
+.buttons__and-about-me {
+  margin-top: 10.286458333333334vw;
+}
+
+.buttons__and-about-me p {
+  font-size: 1.04vw;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.p1 {
+  color: var(--contactMeButtonText);
+}
+.p2 {
+  color: var(--aboutMeButtonText);
+}
+.p3 {
+  color: var(--myWorksButtonText);
+}
+
+.contact__me-button {
+  width: 7.8125vw;
+  height: 7.8125vw;
+  margin: 1.266490765171504vh 0.625vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+} 
+
+.contact__me-button-clicked {
+  width: 7.8125vw;
+  height: 7.8125vw;
+  margin: 1.266490765171504vh 0.625vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transform: translateX(8px) translateY(-8px);
+  box-shadow: -1px 1px var(--contactMeButton), -2px 2px var(--contactMeButton), -3px 3px var(--contactMeButton), -4px 4px var(--contactMeButton), -5px 5px var(--contactMeButton), -6px 6px var(--contactMeButton), -7px 7px var(--contactMeButton), -8px 8px var(--contactMeButton);
+}
+
+.contact__me-button-clicked-again {
+  width: 7.8125vw;
+  height: 7.8125vw;
+  margin: 1.266490765171504vh 0.625vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  -webkit-animation: contactMeButtonReverse 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both;
+            animation: contactMeButtonReverse 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both;
+}
+
+.about__me-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 7.8125vw;
+  height: 7.8125vw;  
+  margin: 1.266490765171504vh 0.625vw;
+}
+
+.about__me-button-clicked {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 7.8125vw;
+  height: 7.8125vw;  
+  margin: 1.266490765171504vh 0.625vw;
+  transform: translateX(8px) translateY(-8px);
+  box-shadow: -1px 1px var(--aboutMeButton), -2px 2px var(--aboutMeButton), -3px 3px var(--aboutMeButton), -4px 4px var(--aboutMeButton), -5px 5px var(--aboutMeButton), -6px 6px var(--aboutMeButton), -7px 7px var(--aboutMeButton), -8px 8px var(--aboutMeButton);
+}
+
+.about__me-button-clicked-again {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 7.8125vw;
+  height: 7.8125vw;  
+  margin: 1.266490765171504vh 0.625vw;
+  -webkit-animation: aboutMeButtonReverse 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both;
+            animation: aboutMeButtonReverse 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both;
+}
+
+.about__me-button img {
+  width: 3.4vw;
+  margin-bottom: 1.6886543535620053vh;
+}
+
+.about__me-button-clicked img {
+  width: 3.4vw;
+  margin-bottom: 1.6886543535620053vh;
+}
+
+.about__me-button-clicked-again img {
+  width: 3.4vw;
+  margin-bottom: 1.6886543535620053vh;
+}
+
+.my__works-button {
+  width: 7.8125vw;
+  height: 7.8125vw;
+  margin: 1.266490765171504vh 0.625vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.my__works-button-clicked {
+  width: 7.8125vw;
+  height: 7.8125vw;
+  margin: 1.266490765171504vh 0.625vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transform: translateX(8px) translateY(-8px);
+  box-shadow: -1px 1px var(--myWorksButton), -2px 2px var(--myWorksButton), -3px 3px var(--myWorksButton), -4px 4px var(--myWorksButton), -5px 5px var(--myWorksButton), -6px 6px var(--myWorksButton), -7px 7px var(--myWorksButton), -8px 8px var(--myWorksButton);
+}
+
+.my__works-button-clicked-again {
+  width: 7.8125vw;
+  height: 7.8125vw;
+  margin: 1.266490765171504vh 0.625vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  -webkit-animation: myWorksButtonReverse 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both;
+            animation: myWorksButtonReverse 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both;
+}
+
+.features {
+  align-items: flex-end;
+  padding-bottom: .2vw;
+  height: 4.4vh;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: .6rem;
+}
+.features p {
+  font-size: 16px;
+}
+
+.about__me-button:hover {
+  cursor: pointer;
+	-webkit-animation: aboutMeButton 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: aboutMeButton 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+.about__me-button-clicked-again:hover {
+  cursor: pointer;
+	-webkit-animation: aboutMeButton 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: aboutMeButton 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+.contact__me-button:hover {
+  cursor: pointer;
+	-webkit-animation: contactMeButton 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: contactMeButton 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+.contact__me-button-clicked-again:hover {
+  cursor: pointer;
+	-webkit-animation: contactMeButton 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: contactMeButton 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+
+.my__works-button:hover {
+  cursor: pointer;
+	-webkit-animation: myWorksButton 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: myWorksButton 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+.my__works-button-clicked-again:hover {
+  cursor: pointer;
+	-webkit-animation: myWorksButton 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: myWorksButton 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+

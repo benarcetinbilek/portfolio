@@ -1,0 +1,480 @@
+:root {
+        --backgroundColor: #191919 ;
+        --contact: #F85E00;
+        --aboutMe: #F85E00; 
+        --myWorks: #F85E00;
+        --contactMeButton: #F85E00;
+        --aboutMeButton: #F85E00;
+        --myWorksButton: #F85E00;
+        --contactMeText: #FFB563;
+        --contactMeButtonText: #FFB563;
+        --aboutMeButtonText: #FFB563;
+        --myWorksButtonText: #FFB563;
+        --aboutMeText: #FFB563;
+        --cv: white;
+        --myWorksText1: white;
+        --myWorksText2: white;
+        --myWorksText3: white;
+        --myWorksText4: white;
+        --myWorksText5: white;
+        --myWorksText6: white;
+}
+
+
+@-webkit-keyframes contactMe {
+        0% {
+          -webkit-box-shadow: 0 0 var(--contact), 0 0 var(--contact), 0 0 var(--contact), 0 0 var(--contact), 0 0 var(--contact), 0 0 var(--contact), 0 0 var(--contact), 0 0 var(--contact);
+                  box-shadow: 0 0 var(--contact), 0 0 var(--contact), 0 0 var(--contact), 0 0 var(--contact), 0 0 var(--contact), 0 0 var(--contact), 0 0 var(--contact), 0 0 var(--contact);
+          -webkit-transform: translateX(0) translateY(0);
+                  transform: translateX(0) translateY(0);
+        }
+        100% {
+          -webkit-box-shadow: -1px 1px var(--contact), -2px 2px var(--contact), -3px 3px var(--contact), -4px 4px var(--contact), -5px 5px var(--contact), -6px 6px var(--contact), -7px 7px var(--contact), -8px 8px var(--contact);
+                  box-shadow: -1px 1px var(--contact), -2px 2px var(--contact), -3px 3px var(--contact), -4px 4px var(--contact), -5px 5px var(--contact), -6px 6px var(--contact), -7px 7px var(--contact), -8px 8px var(--contact);
+          -webkit-transform: translateX(8px) translateY(-8px);
+                  transform: translateX(8px) translateY(-8px);
+        }
+      }
+      @keyframes contactMe {
+        0% {
+          -webkit-box-shadow: 0 0 var(--contact), 0 0 var(--contact), 0 0 var(--contact), 0 0 var(--contact), 0 0 var(--contact), 0 0 var(--contact), 0 0 var(--contact), 0 0 var(--contact);
+                  box-shadow: 0 0 var(--contact), 0 0 var(--contact), 0 0 var(--contact), 0 0 var(--contact), 0 0 var(--contact), 0 0 var(--contact), 0 0 var(--contact), 0 0 var(--contact);
+          -webkit-transform: translateX(0) translateY(0);
+                  transform: translateX(0) translateY(0);
+        }
+        100% {
+          -webkit-box-shadow: -1px 1px var(--contact), -2px 2px var(--contact), -3px 3px var(--contact), -4px 4px var(--contact), -5px 5px var(--contact), -6px 6px var(--contact), -7px 7px var(--contact), -8px 8px var(--contact);
+                  box-shadow: -1px 1px var(--contact), -2px 2px var(--contact), -3px 3px var(--contact), -4px 4px var(--contact), -5px 5px var(--contact), -6px 6px var(--contact), -7px 7px var(--contact), -8px 8px var(--contact);
+          -webkit-transform: translateX(8px) translateY(-8px);
+                  transform: translateX(8px) translateY(-8px);
+        }
+      }
+@-webkit-keyframes aboutMe {
+        0% {
+          -webkit-box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+                  box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+          -webkit-transform: translateX(0) translateY(0);
+                  transform: translateX(0) translateY(0);
+        }
+        100% {
+          -webkit-box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+                  box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+          -webkit-transform: translateX(8px) translateY(-8px);
+                  transform: translateX(8px) translateY(-8px);
+        }
+      }
+      @keyframes aboutMe {
+        0% {
+          -webkit-box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+                  box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+          -webkit-transform: translateX(0) translateY(0);
+                  transform: translateX(0) translateY(0);
+        }
+        100% {
+          -webkit-box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+                  box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+          -webkit-transform: translateX(8px) translateY(-8px);
+                  transform: translateX(8px) translateY(-8px);
+        }
+      }
+@-webkit-keyframes myWorks {
+        0% {
+          -webkit-box-shadow: 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks);
+                  box-shadow: 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks);
+          -webkit-transform: translateX(0) translateY(0);
+                  transform: translateX(0) translateY(0);
+        }
+        100% {
+          -webkit-box-shadow: -1px 1px var(--myWorks), -2px 2px var(--myWorks), -3px 3px var(--myWorks), -4px 4px var(--myWorks), -5px 5px var(--myWorks), -6px 6px var(--myWorks), -7px 7px var(--myWorks), -8px 8px var(--myWorks);
+                  box-shadow: -1px 1px var(--myWorks), -2px 2px var(--myWorks), -3px 3px var(--myWorks), -4px 4px var(--myWorks), -5px 5px var(--myWorks), -6px 6px var(--myWorks), -7px 7px var(--myWorks), -8px 8px var(--myWorks);
+          -webkit-transform: translateX(8px) translateY(-8px);
+                  transform: translateX(8px) translateY(-8px);
+        }
+      }
+      @keyframes myWorks {
+        0% {
+          -webkit-box-shadow: 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks);
+                  box-shadow: 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks);
+          -webkit-transform: translateX(0) translateY(0);
+                  transform: translateX(0) translateY(0);
+        }
+        100% {
+          -webkit-box-shadow: -1px 1px var(--myWorks), -2px 2px var(--myWorks), -3px 3px var(--myWorks), -4px 4px var(--myWorks), -5px 5px var(--myWorks), -6px 6px var(--myWorks), -7px 7px var(--myWorks), -8px 8px var(--myWorks);
+                  box-shadow: -1px 1px var(--myWorks), -2px 2px var(--myWorks), -3px 3px var(--myWorks), -4px 4px var(--myWorks), -5px 5px var(--myWorks), -6px 6px var(--myWorks), -7px 7px var(--myWorks), -8px 8px var(--myWorks);
+          -webkit-transform: translateX(8px) translateY(-8px);
+                  transform: translateX(8px) translateY(-8px);
+        }
+      }      
+@-webkit-keyframes contactMeButton {
+        0% {
+          -webkit-box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+                  box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+          -webkit-transform: translateX(0) translateY(0);
+                  transform: translateX(0) translateY(0);
+        }
+        100% {
+          -webkit-box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+                  box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+          -webkit-transform: translateX(8px) translateY(-8px);
+                  transform: translateX(8px) translateY(-8px);
+        }
+      }
+      @keyframes contactMeButton {
+        0% {
+          -webkit-box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+                  box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+          -webkit-transform: translateX(0) translateY(0);
+                  transform: translateX(0) translateY(0);
+        }
+        100% {
+          -webkit-box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+                  box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+          -webkit-transform: translateX(8px) translateY(-8px);
+                  transform: translateX(8px) translateY(-8px);
+        }
+      }
+@-webkit-keyframes aboutMeButton {
+        0% {
+          -webkit-box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+                  box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+          -webkit-transform: translateX(0) translateY(0);
+                  transform: translateX(0) translateY(0);
+        }
+        100% {
+          -webkit-box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+                  box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+          -webkit-transform: translateX(8px) translateY(-8px);
+                  transform: translateX(8px) translateY(-8px);
+        }
+      }
+      @keyframes aboutMeButton {
+        0% {
+          -webkit-box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+                  box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+          -webkit-transform: translateX(0) translateY(0);
+                  transform: translateX(0) translateY(0);
+        }
+        100% {
+          -webkit-box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+                  box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+          -webkit-transform: translateX(8px) translateY(-8px);
+                  transform: translateX(8px) translateY(-8px);
+        }
+      }
+@-webkit-keyframes myWorksButton {
+        0% {
+          -webkit-box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+                  box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+          -webkit-transform: translateX(0) translateY(0);
+                  transform: translateX(0) translateY(0);
+        }
+        100% {
+          -webkit-box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+                  box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+          -webkit-transform: translateX(8px) translateY(-8px);
+                  transform: translateX(8px) translateY(-8px);
+        }
+      }
+      @keyframes myWorksButton {
+        0% {
+          -webkit-box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+                  box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+          -webkit-transform: translateX(0) translateY(0);
+                  transform: translateX(0) translateY(0);
+        }
+        100% {
+          -webkit-box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+                  box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+          -webkit-transform: translateX(8px) translateY(-8px);
+                  transform: translateX(8px) translateY(-8px);
+        }
+      }
+@-webkit-keyframes contactMeButtonReverse {
+        0% {
+          -webkit-box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+                  box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+          -webkit-transform: translateX(0) translateY(0);
+                  transform: translateX(0) translateY(0);
+        }
+        100% {
+          -webkit-box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+                  box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+          -webkit-transform: translateX(8px) translateY(-8px);
+                  transform: translateX(8px) translateY(-8px);
+        }
+      }
+      @keyframes contactMeButtonReverse {
+        0% {
+          -webkit-box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+                  box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+          -webkit-transform: translateX(0) translateY(0);
+                  transform: translateX(0) translateY(0);
+        }
+        100% {
+          -webkit-box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+                  box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+          -webkit-transform: translateX(8px) translateY(-8px);
+                  transform: translateX(8px) translateY(-8px);
+        }
+      }
+@-webkit-keyframes aboutMeButtonReverse {
+        0% {
+          -webkit-box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+                  box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+          -webkit-transform: translateX(0) translateY(0);
+                  transform: translateX(0) translateY(0);
+        }
+        100% {
+          -webkit-box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+                  box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+          -webkit-transform: translateX(8px) translateY(-8px);
+                  transform: translateX(8px) translateY(-8px);
+        }
+      }
+      @keyframes aboutMeButtonReverse {
+        0% {
+          -webkit-box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+                  box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+          -webkit-transform: translateX(0) translateY(0);
+                  transform: translateX(0) translateY(0);
+        }
+        100% {
+          -webkit-box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+                  box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+          -webkit-transform: translateX(8px) translateY(-8px);
+                  transform: translateX(8px) translateY(-8px);
+        }
+      }
+@-webkit-keyframes myWorksButtonReverse {
+        0% {
+          -webkit-box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+                  box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+          -webkit-transform: translateX(0) translateY(0);
+                  transform: translateX(0) translateY(0);
+        }
+        100% {
+          -webkit-box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+                  box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+          -webkit-transform: translateX(8px) translateY(-8px);
+                  transform: translateX(8px) translateY(-8px);
+        }
+      }
+      @keyframes myWorksButtonReverse {
+        0% {
+          -webkit-box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+                  box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+          -webkit-transform: translateX(0) translateY(0);
+                  transform: translateX(0) translateY(0);
+        }
+        100% {
+          -webkit-box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+                  box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+          -webkit-transform: translateX(8px) translateY(-8px);
+                  transform: translateX(8px) translateY(-8px);
+        }
+      }
+@-webkit-keyframes contactMeReverse {
+        0% {
+        -webkit-box-shadow: 0 0 var(--contactMe), 0 0 var(--contactMe), 0 0 var(--contactMe), 0 0 var(--contactMe), 0 0 var(--contactMe), 0 0 var(--contactMe), 0 0 var(--contactMe), 0 0 var(--contactMe);
+                box-shadow: 0 0 var(--contactMe), 0 0 var(--contactMe), 0 0 var(--contactMe), 0 0 var(--contactMe), 0 0 var(--contactMe), 0 0 var(--contactMe), 0 0 var(--contactMe), 0 0 var(--contactMe);
+        -webkit-transform: translateX(0) translateY(0);
+                transform: translateX(0) translateY(0);
+                
+        }
+        100% {
+        -webkit-box-shadow: -1px 1px var(--contactMe), -2px 2px var(--contactMe), -3px 3px var(--contactMe), -4px 4px var(--contactMe), -5px 5px var(--contactMe), -6px 6px var(--contactMe), -7px 7px var(--contactMe), -8px 8px var(--contactMe);
+                box-shadow: -1px 1px var(--contactMe), -2px 2px var(--contactMe), -3px 3px var(--contactMe), -4px 4px var(--contactMe), -5px 5px var(--contactMe), -6px 6px var(--contactMe), -7px 7px var(--contactMe), -8px 8px var(--contactMe);
+        -webkit-transform: translateX(8px) translateY(-8px);
+                transform: translateX(8px) translateY(-8px);
+              
+         }
+        }
+      @keyframes contactMeReverse {
+        0% {
+          -webkit-box-shadow: 0 0 var(--contactMe), 0 0 var(--contactMe), 0 0 var(--contactMe), 0 0 var(--contactMe), 0 0 var(--contactMe), 0 0 var(--contactMe), 0 0 var(--contactMe), 0 0 var(--contactMe);
+                  box-shadow: 0 0 var(--contactMe), 0 0 var(--contactMe), 0 0 var(--contactMe), 0 0 var(--contactMe), 0 0 var(--contactMe), 0 0 var(--contactMe), 0 0 var(--contactMe), 0 0 var(--contactMe);
+          -webkit-transform: translateX(0) translateY(0);
+                  transform: translateX(0) translateY(0);
+                  
+        }
+        100% {
+          -webkit-box-shadow: -1px 1px var(--contactMe), -2px 2px var(--contactMe), -3px 3px var(--contactMe), -4px 4px var(--contactMe), -5px 5px var(--contactMe), -6px 6px var(--contactMe), -7px 7px var(--contactMe), -8px 8px var(--contactMe);
+                  box-shadow: -1px 1px var(--contactMe), -2px 2px var(--contactMe), -3px 3px var(--contactMe), -4px 4px var(--contactMe), -5px 5px var(--contactMe), -6px 6px var(--contactMe), -7px 7px var(--contactMe), -8px 8px var(--contactMe);
+          -webkit-transform: translateX(8px) translateY(-8px);
+                  transform: translateX(8px) translateY(-8px);
+                 
+        }
+      }     
+@-webkit-keyframes aboutMeReverse {
+        0% {
+        -webkit-box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+                box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+        -webkit-transform: translateX(0) translateY(0);
+                transform: translateX(0) translateY(0);
+                
+        }
+        100% {
+        -webkit-box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+                box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+        -webkit-transform: translateX(8px) translateY(-8px);
+                transform: translateX(8px) translateY(-8px);
+              
+         }
+        }
+      @keyframes aboutMeReverse {
+        0% {
+          -webkit-box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+                  box-shadow: 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe), 0 0 var(--aboutMe);
+          -webkit-transform: translateX(0) translateY(0);
+                  transform: translateX(0) translateY(0);
+                  
+        }
+        100% {
+          -webkit-box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+                  box-shadow: -1px 1px var(--aboutMe), -2px 2px var(--aboutMe), -3px 3px var(--aboutMe), -4px 4px var(--aboutMe), -5px 5px var(--aboutMe), -6px 6px var(--aboutMe), -7px 7px var(--aboutMe), -8px 8px var(--aboutMe);
+          -webkit-transform: translateX(8px) translateY(-8px);
+                  transform: translateX(8px) translateY(-8px);
+                 
+        }
+      }
+@-webkit-keyframes myWorksReverse {
+        0% {
+        -webkit-box-shadow: 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks);
+                box-shadow: 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks);
+        -webkit-transform: translateX(0) translateY(0);
+                transform: translateX(0) translateY(0);
+                
+        }
+        100% {
+        -webkit-box-shadow: -1px 1px var(--myWorks), -2px 2px var(--myWorks), -3px 3px var(--myWorks), -4px 4px var(--myWorks), -5px 5px var(--myWorks), -6px 6px var(--myWorks), -7px 7px var(--myWorks), -8px 8px var(--myWorks);
+                box-shadow: -1px 1px var(--myWorks), -2px 2px var(--myWorks), -3px 3px var(--myWorks), -4px 4px var(--myWorks), -5px 5px var(--myWorks), -6px 6px var(--myWorks), -7px 7px var(--myWorks), -8px 8px var(--myWorks);
+        -webkit-transform: translateX(8px) translateY(-8px);
+                transform: translateX(8px) translateY(-8px);
+              
+         }
+        }
+      @keyframes myWorksReverse {
+        0% {
+          -webkit-box-shadow: 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks);
+                  box-shadow: 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks), 0 0 var(--myWorks);
+          -webkit-transform: translateX(0) translateY(0);
+                  transform: translateX(0) translateY(0);
+                  
+        }
+        100% {
+          -webkit-box-shadow: -1px 1px var(--myWorks), -2px 2px var(--myWorks), -3px 3px var(--myWorks), -4px 4px var(--myWorks), -5px 5px var(--myWorks), -6px 6px var(--myWorks), -7px 7px var(--myWorks), -8px 8px var(--myWorks);
+                  box-shadow: -1px 1px var(--myWorks), -2px 2px var(--myWorks), -3px 3px var(--myWorks), -4px 4px var(--myWorks), -5px 5px var(--myWorks), -6px 6px var(--myWorks), -7px 7px var(--myWorks), -8px 8px var(--myWorks);
+          -webkit-transform: translateX(8px) translateY(-8px);
+                  transform: translateX(8px) translateY(-8px);
+                 
+        }
+      } 
+
+ @-webkit-keyframes shadow-pop-logo {
+        0% {
+          -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+                  box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+          -webkit-transform: translateX(0) translateY(0);
+                  transform: translateX(0) translateY(0);
+        }
+        100% {
+          -webkit-box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
+                  box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
+          -webkit-transform: translateX(8px) translateY(-8px);
+                  transform: translateX(8px) translateY(-8px);
+        }
+      }
+      @keyframes shadow-pop-logo {
+        0% {
+          -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+                  box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+          -webkit-transform: translateX(0) translateY(0);
+                  transform: translateX(0) translateY(0);
+        }
+        100% {
+          -webkit-box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
+                  box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
+          -webkit-transform: translateX(8px) translateY(-8px);
+                  transform: translateX(8px) translateY(-8px);
+        }
+      }
+      
+@-webkit-keyframes scale-up-center {
+        0% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+        }
+        100% {
+          -webkit-transform: scale(1.5);
+                  transform: scale(1.5);
+        }
+      }
+      @keyframes scale-up-center {
+        0% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+        }
+        100% {
+          -webkit-transform: scale(1.5);
+                  transform: scale(1.5);
+        }
+      }
+
+@-webkit-keyframes slide-in-left {
+        0% {
+        -webkit-transform: translateX(-19.53125vw);
+                transform: translateX(-19.53125vw);
+        opacity: 0;
+        }
+        100% {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+        opacity: 1;
+        }
+}
+@keyframes slide-in-left {
+        0% {
+        -webkit-transform: translateX(-19.53125vw);
+                transform: translateX(-19.53125vw);
+        opacity: 0;
+        }
+        100% {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+        opacity: 1;
+        }       
+}
+
+@-webkit-keyframes alert {
+        0% {
+        opacity: 0;
+        }
+        100% {
+        opacity: 1;
+        }
+}
+@keyframes alert {
+        0% {
+        opacity: 0;
+        }
+        100% {
+        opacity: 1;
+        }       
+}
+
+@-webkit-keyframes alert-off {
+        0% {
+        opacity: 0;
+        }
+        100% {
+        opacity: 1;
+        }
+}
+@keyframes alert-off {
+        0% {
+        opacity: 0;
+        }
+        100% {
+        opacity: 1;
+        }       
+}

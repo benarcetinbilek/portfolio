@@ -1,0 +1,84 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 1.4775725593667546vh 0.7291666666666666vw;
+    width: 22.7vw;
+}
+
+.form {
+    font-size: 1.0416666666666667vw;
+}
+
+.x {
+    width:  1.171875vw;
+    margin-left: 18.75vw;
+    margin-top: 1.0554089709762533vh;
+}
+.x:hover{
+    cursor: pointer;
+}
+
+.title {
+    margin-top: 15.5vw;
+    margin-left: 4.6875vw;
+    color: var(--contactMeText);
+}
+
+.form textarea {
+    margin-bottom: 1.0416666666666667vw;
+}
+
+.subject {
+    background: #E2E0DE;
+    margin-top: 1.5625vw;
+}
+
+.content {
+    background: #E2E0DE;
+    height:  6.510416666666667vw;
+}
+
+.contact {
+    background: #E2E0DE;
+}
+
+.submit {
+    border-radius: 20px;
+    margin: 0 5.208333333333333vw;
+    height:  2.2786458333333335vw;
+    width: 10.9vw;
+}
+.submit:hover {
+    cursor: pointer;
+}
+
+@keyframes close {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@-webkit-keyframes close {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+
+.contact__me-content-on {
+    -webkit-animation: contactMe 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+            animation: contactMe 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+            visibility: visible;
+}
+
+.contact__me-content-off {
+    -webkit-animation: contactMeReverse 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both;
+            animation: contactMeReverse 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both;
+    visibility: hidden;
+    transition: visibility .3s linear;
+                        
+}
+
+.contact__me-content-initial {
+    display: none;
+}
+
+    

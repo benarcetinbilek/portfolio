@@ -1,0 +1,64 @@
+.about__me-content-on {
+    width: 40.364583333333336vw;
+    padding: 1rem;
+    -webkit-animation: aboutMe .3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+            animation: aboutMe .3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+            visibility: visible;
+}
+
+a {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: underline;
+    margin-top: 1vw;
+}
+
+.paragraph {
+    margin-top: 1vw;
+}
+.paragraph p {
+    color: var(--aboutMeText);
+}
+.paragraph a {
+    color: var(--cv);
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+.about__me-content-initial {
+    display: none;
+}
+
+.about__me-content-off {
+    width: 40.364583333333336vw;
+    padding: 1rem;
+    -webkit-animation: aboutMeReverse .3s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both;
+            animation: aboutMeReverse .3s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both;
+    visibility: hidden;
+    transition: visibility .3s linear;  
+}
+
+.about__me-content p {
+    color: white;
+}
+
+.list {
+    display: flex;
+}
+
+.list ul {
+    margin-left: 2.3rem;
+    color: white;
+}
+
+.about__me-x {
+    width: 1.171875vw;
+    margin-left: 37.5vw;
+    margin-top: .2rem;
+}
+
+.about__me-x:hover {
+    cursor: pointer;
+}

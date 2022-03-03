@@ -1,0 +1,161 @@
+.my__works-content-on {
+    width: 350px;
+    height: 520px;
+    display: flex;
+    padding: .7rem;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;    
+    -webkit-animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+              animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  }
+  
+  .my__works-content-off {
+    width: 350px;
+    height: 520px;
+    display: flex;
+    padding: .7rem;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    opacity: 0;
+  }
+    
+  .my__works-images-container{
+    display: flex;
+  }
+  
+  
+  .my__works-content-left img {
+    resize: contain;
+    width: 155px;
+    height: 155px;
+  }
+  
+  
+  .my__works-content-right img {
+    resize: contain;
+    width: 155px;
+    height: 155px;
+  }
+  
+  .my__works-x{
+    height: 18px;
+    width: 18px;
+    margin-right: .55rem;
+    margin-bottom: .2rem;
+  }
+  
+  .my__works-x:hover {
+    cursor: pointer;
+  }
+  
+  .my__works-content-left img:hover  {
+    cursor: pointer;  
+      -webkit-animation: scale-up-center 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+              animation: scale-up-center 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  }
+  
+  .i1:hover  .my__works-content-on > .my__works-content-right{
+  display: none;
+  }
+  
+  .my__works-content-right img:hover {
+    cursor: pointer;  
+      -webkit-animation: scale-up-center 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+              animation: scale-up-center 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  }
+  
+  
+  .p1-on {
+    position: absolute;
+    left: 38px;
+    margin-top: 2.5rem;
+    color: black;
+    -webkit-animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+              animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
+  .p1-off {
+    display: none;
+  }
+  
+  .p2-on {
+    position: absolute;
+    left: 38px;
+    margin-top: 2.5rem;
+    color: black;
+    -webkit-animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+              animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
+  .p2-off {
+    display: none;
+  }
+  
+  .p22-on {
+    position: absolute;
+    left: 38px;
+    margin-top: 3.4rem;
+    color: black;
+    -webkit-animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+              animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
+  .p22-off {
+    display: none;
+  }
+  
+  .p3-on {
+    position: absolute;
+    left: 38px;
+    margin-top: 2.5rem;
+    color: black;
+    -webkit-animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+              animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
+  .p3-off {
+    display: none;
+  }
+  
+  .p4-on {
+    position: absolute;
+    margin-top: 2.5rem;
+    color: black;
+    -webkit-animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+              animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
+  .p4-off {
+    display: none;
+  }
+  
+  .p5-on {
+    position: absolute;
+    margin-top: 2.5rem;
+    color: black;
+    -webkit-animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+              animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
+  .p5-off {
+    display: none;
+  }
+  
+  .p6-on {
+    position: absolute;
+    margin-top: 2.5rem;
+    color: black;
+    -webkit-animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+              animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
+  .p6-off {
+    display: none;
+  }
+  
+  
+  .i:hover p1-on {
+    display: none;
+  }

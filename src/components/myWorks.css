@@ -1,0 +1,191 @@
+.my__works-content-on {
+  width: 22.786458333333332vw;
+  display: flex;
+  padding: .7rem;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;    
+  -webkit-animation: myWorks 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: myWorks 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+.my__works-content-off {
+  width: 22.786458333333332vw;
+  display: flex;
+  padding: .7rem;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;    
+  -webkit-animation: myWorksReverse 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both;
+            animation: myWorksReverse 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both;
+    visibility: hidden;
+    transition: visibility .3s linear;
+}
+
+.i {
+  transition: opacity .25s ease-in-out;
+}
+
+.my__works-content-on:hover .i {
+  opacity: 5%;
+}
+
+.my__works-content-on:hover .i:hover{
+  opacity: 100%;
+}
+
+
+.my__works-content-initial {
+  display: none;
+}
+  
+.my__works-images-container{
+  display: flex;
+}
+
+
+.my__works-content-left img {
+  resize: contain;
+}
+
+
+.i{
+  width: 10.091666666666667vw;
+  height: 10.091666666666667vw;
+}
+
+.my__works-x{
+  width: 1.171875vw;
+  margin-right: 0.5729166666666667vw;
+  margin-bottom: 4vw;
+}
+
+.my__works-x:hover {
+  cursor: pointer;
+}
+
+.my__works-content-left img:hover  {
+  cursor: pointer;  
+    -webkit-animation: scale-up-center 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: scale-up-center 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.my__works-content-right img:hover {
+  cursor: pointer;  
+    -webkit-animation: scale-up-center 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: scale-up-center 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+p {
+  font-size: 1.171875vw;
+}
+
+.p1-on {
+  position: absolute;
+  left: 4.1015625vw;
+  top: 20vw;
+  color: var(--myWorksText1);
+  -webkit-animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.p1-off {
+  display: none;
+}
+
+.img11 {
+  position: absolute;
+  width: 12.369791666666666vw;
+  left: 0.3260416666666667vw;
+}
+
+.gif2 {
+  left: 0.16276041666666666vw;
+  position: absolute;
+  width: 16.276041666666668vw;
+}
+
+.p2-on {
+  position: absolute;
+  left: 6.380208333333333vw;
+  margin-top: 3.1662269129287597vh;
+  color: var(--myWorksText2);
+  -webkit-animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.p2-off {
+  display: none;
+}
+
+.p22-on {
+  position: absolute;
+  left: 8.138020833333334vw;
+  margin-top: 5.699208443271768vh;
+  color: var(--myWorksText2);
+  -webkit-animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.p22-off {
+  display: none;
+}
+
+.p3-on {
+  position: absolute;
+  left: 4.231770833333333vw;
+  margin-top: 2.6041666666666665vw;
+  color: var(--myWorksText3);
+  -webkit-animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.p3-off {
+  display: none;
+}
+
+.p4-on {
+  top: 18vw;
+  left: 9.244791666666666vw;
+  position: absolute;
+  color: var(--myWorksText4);
+  -webkit-animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.p4-off {
+  display: none;
+}
+
+.img44 {
+  position: absolute;
+  left: 4.557291666666667vw;
+  width: 16vw;
+}
+
+.p5-on {
+  left: 15.0390625vw;
+  position: absolute;
+  margin-top: 2.6041666666666665vw;
+  color: var(--myWorksText5);
+  -webkit-animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.p5-off {
+  display: none;
+}
+
+.p6-on {
+  left: 15.625vw;
+  position: absolute;
+  margin-top: 2.6041666666666665vw;
+  color: var(--myWorksText6);
+  -webkit-animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.p6-off {
+  display: none;
+}
+

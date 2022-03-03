@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background: #191919
+  }
+  
+  a{
+    color: unset;
+    text-decoration: none;
+  }
+  
+  p {
+    color: white;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    padding: 1rem .7rem;
+    margin-left: 3rem;
+    margin-top: 1.3rem;
+    width: 80px;  
+  }
+  
+  .logo p {
+    color: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);;
+  }
+  
+  .main__content-window {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.7rem;
+  }
+  
+  
+  .buttons__and-about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 13rem;
+    position: absolute;
+    top: 8rem;
+  }
+  
+  .buttons__and-about-me p {
+    color : slateblue;
+    margin-bottom: .9rem;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .contact__me-button {
+    width: 120px;
+    height: 120px;
+    margin: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .contact__me-button-clicked {
+    width: 120px;
+    height: 120px;
+    margin: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    transform: translateX(8px) translateY(-8px);
+    box-shadow: -1px 1px green, -2px 2px green, -3px 3px green, -4px 4px green, -5px 5px green, -6px 6px green, -7px 7px green, -8px 8px green;
+  }
+  
+  .contact__me-content {
+    position: absolute;
+    margin-top: 43rem;
+    margin-left: -55rem;
+    -webkit-animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+              animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  }
+  .about__me-content {
+    -webkit-animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+              animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  }
+  .my__works-content {
+    -webkit-animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+              animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  }
+  
+  
+  .about__me-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 120px;
+    height: 120px;  
+    margin: 0.6rem;
+  }
+  
+  .about__me-button-clicked {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 120px;
+    height: 120px;  
+    margin: 0.6rem;
+    transform: translateX(8px) translateY(-8px);
+    box-shadow: -1px 1px green, -2px 2px green, -3px 3px green, -4px 4px green, -5px 5px green, -6px 6px green, -7px 7px green, -8px 8px green;
+  }
+  
+  .about__me-button img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: .8rem;
+  }
+  
+  .about__me-x {
+    height: 18px;
+    width: 18px;
+    margin-right: .3rem;
+  }
+  
+  .about__me-button-clicked img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: .8rem;
+  }
+  
+  .my__works-button {
+    width: 120px;
+    height: 120px;
+    margin: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .my__works-button-clicked {
+    width: 120px;
+    height: 120px;
+    margin: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    transform: translateX(8px) translateY(-8px);
+    box-shadow: -1px 1px green, -2px 2px green, -3px 3px green, -4px 4px green, -5px 5px green, -6px 6px green, -7px 7px green, -8px 8px green;
+  }
+  
+  .about__me-content {
+    width: 470px;
+    height: 200px;
+    position: absolute;
+    margin-left: -14rem;
+    margin-top: 2rem;
+  }
+  
+  .about__me-content p {
+    color: white;
+  }
+  
+  .list {
+    display: flex;
+  }
+  
+  .list ul {
+    margin-left: 2.3rem;
+    color: white;
+  }
+  
+  .my__works-content {
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: absolute;
+    margin-left: 20rem;
+  }
+  
+  .my__works-images-container{
+    display: flex;
+  }
+  
+  .my__works-content-left img {
+    resize: contain;
+    width: 170px;
+    height: 170px;
+  }
+  
+  .my__works-content-right img {
+    resize: contain;
+    width: 170px;
+    height: 170px;
+  }
+  
+  .my__works-x{
+    height: 18px;
+    width: 18px;
+    margin-right: .3rem;
+  }
+  i.my__works-x:hover {
+    cursor: pointer;
+  }
+  
+  .my__works-content-left img:hover {
+    cursor: pointer;  
+      -webkit-animation: scale-up-center 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+              animation: scale-up-center 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  }
+  
+  .my__works-content-right img:hover {
+    cursor: pointer;  
+      -webkit-animation: scale-up-center 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+              animation: scale-up-center 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .about__me-button:hover {
+    cursor: pointer;
+      -webkit-animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+              animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  }
+  
+  .contact__me-button:hover {
+    cursor: pointer;
+      -webkit-animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+              animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  }
+  
+  .my__works-button:hover {
+    cursor: pointer;
+      -webkit-animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+              animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  }
+  
+  .logo {
+      -webkit-animation: shadow-pop-logo 0.9s cubic-bezier(0.470, 0.000, 0.745, 0.715) 4s both;
+              animation: shadow-pop-logo 0.9s cubic-bezier(0.470, 0.000, 0.745, 0.715) 4s both;
+  }
+  
